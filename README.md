@@ -1,0 +1,1 @@
+# Xbot: A chat bot for the XboxEra Discord server
