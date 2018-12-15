@@ -1,0 +1,9 @@
+[package]
+name = "xbot"
+version = "0.0.1"
+authors = ["landon"]
+edition = "2018"
+
+[dependencies]
+serenity = "0.5.11"
+dotenv = "0.13.0"
