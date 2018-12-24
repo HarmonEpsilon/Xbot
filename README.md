@@ -9,7 +9,7 @@ Make sure you have the [latest Rust version](https://www.rust-lang.org/) install
 
 This bot uses [Serenity](https://github.com/serenity-rs/serenity) in order to connect to the Discord REST API. Please make sure you install its dependencies in order to compile.
 
-The following dependencies are required in order to compile:
+ For further elaboration (or if you're just lazy and don't want to click the link), the following dependencies are required in order to compile:
 ```
 openssl
 
