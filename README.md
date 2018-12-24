@@ -1,6 +1,6 @@
 # Xbot: A chatbot built on Rust
 
-This chatbot is specifically made to cater to the XboxEra Discord server. If you want to fork this and use it for your own servers, go right ahead. 
+This chatbot is specifically made to cater to the Xbox Gaming Discord server. If you want to fork this and use it for your own servers, go right ahead. 
 
 How to Build
 ------------
