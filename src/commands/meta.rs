@@ -8,7 +8,7 @@ command!(help(_ctx, msg) {
                 ("Description", "Brings up this dialog\n", true),
             ])
             .footer(|f| f
-                .text("Created by Kaironaut. Ver. 0.0.2")))) {
+                .text("Created by Kaironaut. Ver. 0.0.1")))) {
         println!("Error sending message: {:?}", why);
     }
 });
