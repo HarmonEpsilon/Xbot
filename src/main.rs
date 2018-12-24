@@ -23,23 +23,6 @@ use std::collections::HashSet;
 struct Handler;
 
 impl EventHandler for Handler {
-    /*fn message(&self, _: Context, msg: Message) {
-        if msg.content == "~help" {
-             let Err(why) = msg.channel_id.send_message(|m| m 
-                .embed(|e| e
-                    .title("Hi there! I'm Xbot.")
-                    .description("Here's a helpful list of some common commands.")
-                    .fields(vec![
-                        ("General Commands", "~help\n"/*~status\n~money [USD] to [AUD]*/, true),
-                        ("Description", "Brings up this dialog\n"/*Checks status of Xbox Live\nConverts one currency to another*/, true),
-                    ])
-                    .footer(|f| f
-                        .text("Created by Kaironaut. Ver. 0.0.1")))) {
-                            println!("Error sending message: {:?}", why);
-                        }
-        }if
-    }*/
-
     fn ready(&self, _: Context, ready: Ready) {
         println!("{} is connected!", ready.user.name);
     }
