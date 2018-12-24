@@ -22,7 +22,7 @@ youtube-dl
 
 If you're running on Windows, please follow [Serenity's guide](https://github.com/serenity-rs/serenity/wiki/Voice-on-Windows) in order to get the voice dependencies working.
 
-You must also set up an environment variable using a `.env` file. In it, you must write the following:
+You must also set up an environment variable using a `.env` file placed at the root of the project directory. In it, you must write the following:
 
 ```
 DISCORD_TOKEN={the bot token}
